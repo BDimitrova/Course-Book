@@ -50,6 +50,10 @@
   padding-bottom: 2%;
 }
 
+.details-container-info h3 {
+  margin-top: 10px;
+}
+
 .btn-container a {
   text-decoration: none;
   color: white;
@@ -68,7 +72,7 @@
   text-align: center;
 }
 
-.follow-pub {
+.sign-up {
   display: inline-block;
   color: white;
   width: 30%;
