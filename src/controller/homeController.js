@@ -11,8 +11,6 @@ router.use('/profile',isAuth, async (req, res) => {
     const userId = req.user._id;
     let signUp = await courseServices.getMySignUp(userId);
     let created = await courseServices.getMyCreatedCourse(userId);
-    
-    created = [];
 
     res.render('profile', {signUp, created});
 });
